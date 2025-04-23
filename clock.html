@@ -1,0 +1,7 @@
+<p id="clock" style="font-size:2em;"></p>
+<script>
+setInterval(() => {
+    const now = new Date();
+    document.getElementById("clock").innerText = now.toLocaleTimeString();
+}, 1000);
+</script>
